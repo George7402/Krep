@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Восточный крепёж</title>
+    <link rel="shortcut icon" href="../static/PHOTO/Logo.jpg" type="image/x-icon"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "../static/CSS/main.css"> 
+  </head>
+
+  <body>
+
+    <div class = "container-fluid" style="background-color: #F5F5F5;">
+      <!-- Top part of the site -->
+      <div class = "row">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+          <div class="container-fluid main-nav" style="box-shadow: 0px 6px 6px #D7D7D7;">
+            <a class="navbar-brand" href="#">
+              <img src="../static/PHOTO/Logo.jpg" alt="Bootstrap" width="50" height="50" style ="border-radius: 3px;">
+            </a>
+
+            <a class="navbar-brand main-nav-text" href="#">
+              Главная страница
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
+                <div class="btn-group">
+                  <button type="button" class="btn btn-outline-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 10px;">
+                    Контакты
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="tel: ">Данила</a></li>
+                    <li><a class="dropdown-item" href="tel: +79055510600">Георгий</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">danilvkrep@gmail.com</a></li>
+                  </ul>
+                </div>
+
+                <li class="nav-item">
+                  <button type="button" class="btn btn-outline-light" id = "catalog_btn">Каталог</button>
+                </li>
+
+                <li class="nav-item">
+                  <button type="button" class="btn btn-outline-light" id = "delivery_btn" style="margin-left: 10px ;">Доставка</button>
+                </li>
+
+              </ul>
+
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Поиск</button>
+              </form>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+
+
+
+      <!-- Заголовок -->
+      <div class="row">
+        <div class="col-6"  id="description">
+          <h1><p style="text-align: center;">Наши условия</p></h1>
+          <ul>
+            <h5>
+            <li>Бесплатная доставка от 5 000 рублей</li>
+            <li>Оптовые цены</li>
+            <li>Продукция высокого качества</li>
+            <li>При заказе от 20 000 рублей кэшбэк, который можно использовать, как персональную скидку</li> 
+            <li>Обрабатываем заявки 24/7</li> 
+            <li>Индивидуальная фасовка по потребности</li>
+            <li>В наличии дополнительные позиции под заказ</li>
+            <li>Работаем с НДС-клиентами (нужно предупредить)</li>
+          </h5>
+          </ul>
+        </div>
+        <div class="col"></div>
+        <div class="col-5" id="sales">
+          <h1><p style="text-align: center;">Февральские скидки</p></h1>
+          <ul>
+            <h5>
+              <li>До конца февраля действуют скидки на более 300 позиций из ассортимента</li>
+            </h5>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-5" id="location">
+          <h3><p style="text-align: center;">Где мы находимся?</p></h3>
+          <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A44af25a07bc33cc3d3dcdd135190fa673f2cc65a24493e984e140f75115b3e4a&amp;width=100%&amp;height=380&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+
+        <div class = "col"></div>
+        <div class="col-6" id="about_us">
+          <h1><p style="text-align: center;">О нас</p></h1>
+          <ul>
+            <h5>
+              Компания "Восточный Крепеж" - надежный поставщик метизов, предлагающий широкий ассортимент качественных изделий для различных отраслей промышленности.
+              <br><br>Мы специализируемся на поставках болтов, гаек, винтов, шайб, а также специальных крепежных элементов. 
+              <br><br>Наша компания гарантирует надежность, высокое качество продукции и индивидуальный подход к каждому клиенту. Наша цель - обеспечить производственные предприятия и строительные компании необходимыми метизами для успешной реализации их проектов.
+            </h5>
+          </ul>
+          
+        </div>
+      </div>
+
+    <script type="text/javascript" src="../static/JS/jquery.js"></script>
+
+  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="../static/JS/main.js"></script>
+
+</html>

@@ -1,0 +1,43 @@
+.main-nav{
+	background-color: #6495ED; 
+	border-radius: 3px;
+}
+
+.main-nav-text{
+	color: #FFFFFF;
+}
+#description{
+	background-color: #6495ED; 
+	border-radius: 3px;
+	color: #FFFFFF;
+	margin-top: 100px;
+	padding: 5px;
+	margin-left:10px;
+}
+#sales{
+	background-color: #FFA352; 
+	border-radius: 3px;
+	color: #FFFFFF;
+	margin-top: 100px;
+	padding: 5px;
+	margin-right:10px;
+}
+#location{
+	background-color: #FFA352; 
+	border-radius: 3px;
+	color: #FFFFFF;
+	margin-top: 20px;
+	padding: 5px;
+	margin-bottom: 20px;
+	margin-left:10px;
+}
+
+#about_us{
+	background-color: #6495ED; 
+	border-radius: 3px;
+	color: #FFFFFF;
+	margin-top: 20px;
+	padding: 5px;
+	margin-bottom: 20px;
+	margin-right:10px;
+}
